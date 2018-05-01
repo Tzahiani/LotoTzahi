@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.tzahi.lototzahi.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/txtNum1"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/ball"
+            android:gravity="center"
+            android:text="@string/num1"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNum2"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginStart="120dp"
+            android:background="@drawable/ball"
+            android:gravity="center"
+            android:text="@string/num2"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNum3"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/ball"
+            android:gravity="center"
+            android:text="@string/num3"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNum4"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginStart="240dp"
+            android:gravity="center"
+            android:background="@drawable/ball"
+            android:text="@string/num4"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNum5"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="120dp"
+            android:gravity="center"
+            android:background="@drawable/ball"
+            android:text="@string/num5"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNum6"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/ball"
+            android:gravity="center"
+            android:text="@string/num6"
+            android:textSize="50px"/>
+
+        <TextView
+            android:id="@+id/txtNumStrong"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginTop="210dp"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/ball"
+            android:text="@string/numStrong"
+            android:gravity="center"
+            android:textSize="50px"/>
+
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:text="@string/btnRun"
+            android:textSize="50px"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
